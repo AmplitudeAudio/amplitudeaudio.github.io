@@ -1,0 +1,10 @@
+.idea
+.eslintcache
+.stylelintcache
+.netlify
+.hugo_build.lock
+hugo_stats.json
+yarn-error.log
+node_modules
+public
+resources
