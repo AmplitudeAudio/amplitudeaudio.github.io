@@ -1,34 +1,6 @@
-[[docs]]
-name = "Get Started"
-identifier = "get-started"
-url = "/docs/get-started/"
-weight = 10
-
-[[docs]]
-name = "Project Setup"
-identifier = "project-setup"
-url = "/docs/project-setup/"
-weight = 30
-
-[[docs]]
-name = "Integration"
-identifier = "integration"
-url = "/docs/integration/"
-weight = 20
-
-# -----
-
-[[guide]]
-name = "Plugins"
-identifier = "plugins"
-url = "/guide/plugins/"
-weight = 10
-
-# -----
-
 [[main]]
 name = "Docs"
-url = "/docs/get-started/introduction/"
+url = "https://docs.amplitudeaudiosdk.com/"
 weight = 10
 
 #[[main]]

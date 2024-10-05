@@ -9,7 +9,7 @@ mainSections = ["docs"]
 [social]
 twitter = "amaudiosdk"
 
-# Doks (@hyas/doks-core)
+# Doks (@thulite/doks-core)
 [doks]
 # Color mode
 colorMode = "auto"      # auto (default), light or dark
@@ -20,12 +20,12 @@ navbarSticky = true        # true (default) or false
 containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
 
 ## Button
-navBarButton = true                                # false (default) or true
-navBarButtonUrl = "/docs/get-started/introduction"
-navBarButtonText = "Get started"
+navBarButton = true                                                                          # false (default) or true
+navBarButtonUrl = "https://docs.amplitudeaudiosdk.com/nightly/getting-started/introduction/"
+navBarButtonText = "Get Started"
 
 # FlexSearch
-flexSearch = true # true (default) or false
+flexSearch = false # true (default) or false
 searchExclKinds = [
 ] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
 searchExclTypes = [
@@ -48,8 +48,6 @@ bootstrapJavascript = false # false (default) or true
 
 # Nav
 sectionNav = [
-  "docs",
-  "guide",
 ] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
 toTopButton = true # false (default) or true
 breadcrumbTrail = true # false (default) or true
@@ -106,7 +104,7 @@ errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
 errorLevel = 'ignore'   # ignore (default), warning, or error (fails the build)
 highlightBroken = false # true or false (default)
 
-# Images (@hyas/images)
+# Images (@thulite/images)
 [hyas_images]
 [hyas_images.defaults]
 decoding = "async"
@@ -117,11 +115,11 @@ sizes = "auto"
 process = ""
 lqip = "16x webp q20"
 
-# Inline SVG (@hyas/inline-svg)
+# Inline SVG (@thulite/inline-svg)
 [inline_svg]
 iconSetDir = "tabler-icons" # "tabler-icons" (default)
 
-# SEO (@hyas/seo)
+# SEO (@thulite/seo)
 [seo]
 [seo.title]
 separator = " | "
@@ -140,7 +138,7 @@ sameAs = [
   "https://github.com/AmplitudeAudio",
   "https://x.com/@amaudiosdk",
   "https://discord.gg/QR2uBpzJ5f",
-] # E.g. ["https://github.com/gethyas/hyas", "https://fosstodon.org/@hyas"]
+]
 images = ["cover.png"] # ["cover.png"] (default)
 article = [] # Article sections
 newsArticle = [] # NewsArticle sections

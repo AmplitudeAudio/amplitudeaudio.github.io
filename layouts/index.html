@@ -10,8 +10,8 @@
     <div class="col-lg-9 col-xl-8 text-center mt-4">
       <p class="lead fs-1">{{ .Params.lead | safeHTML }}</p>
       <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3"
-        href="{{ .Site.BaseURL | relLangURL }}docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}get-started/introduction/"
-        role="button">{{ i18n "get-started" }}</a>
+        href="https://docs.amplitudeaudiosdk.com/nightly/getting-started/introduction" role="button">{{ i18n
+        "get-started" }}</a>
       {{ .Content }}
       <p class="meta">
         {{ i18n "home-hero-license" }}
@@ -30,8 +30,9 @@
 {{ if site.Params.doks.backgroundDots -}}
 <div class="d-flex justify-content-center">
   <div class="flex-fill py-2"
-    style="height: 200px; background-size: cover; background-position: center; background-image: url('/images/home_bg.svg');"></div>
+    style="height: 200px; background-size: cover; background-position: center; background-image: url('/images/home_bg.svg');">
   </div>
+</div>
 </div>
 {{ end -}}
 
@@ -250,8 +251,8 @@
   <div class="row justify-content-center text-center">
     <div class="col-lg-7">
       <a class="btn btn-primary rounded-pill px-4 my-2"
-        href="{{ .Site.BaseURL | relLangURL }}docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}get-started/introduction/"
-        role="button">{{ i18n "get-started" }}</a>
+        href="https://docs.amplitudeaudiosdk.com/nightly/getting-started/introduction" role="button">{{ i18n
+        "get-started" }}</a>
     </div>
   </div>
 </section>
