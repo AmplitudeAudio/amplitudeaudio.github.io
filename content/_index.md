@@ -16,8 +16,10 @@ images: []
 {{< inline-svg src="svgs/macos_logo.svg" height="32px" width="32px" fill="white" class="svg-inline-custom svg-darkmode" >}}
 {{< inline-svg src="svgs/linux_logo.svg" height="32px" width="32px" fill="black" class="svg-inline-custom svg-lightmode" >}}
 {{< inline-svg src="svgs/linux_logo.svg" height="32px" width="32px" fill="white" class="svg-inline-custom svg-darkmode" >}}
-{{< inline-svg src="svgs/android_logo.svg" height="32px" width="32px" fill="black" class="svg-inline-custom opacity-25 svg-lightmode" >}}
-{{< inline-svg src="svgs/android_logo.svg" height="32px" width="32px" fill="white" class="svg-inline-custom opacity-25 svg-darkmode" >}}
-{{< inline-svg src="svgs/ios_logo.svg" height="32px" width="32px" fill="black" class="svg-inline-custom opacity-25 svg-lightmode" >}}
-{{< inline-svg src="svgs/ios_logo.svg" height="32px" width="32px" fill="white" class="svg-inline-custom opacity-25 svg-darkmode" >}}
+{{< inline-svg src="svgs/android_logo.svg" height="32px" width="32px" fill="black" class="svg-inline-custom svg-lightmode" >}}
+{{< inline-svg src="svgs/android_logo.svg" height="32px" width="32px" fill="white" class="svg-inline-custom svg-darkmode" >}}
+
+[//]: # ({{< inline-svg src="svgs/ios_logo.svg" height="32px" width="32px" fill="black" class="svg-inline-custom opacity-25 svg-lightmode" >}})
+
+[//]: # ({{< inline-svg src="svgs/ios_logo.svg" height="32px" width="32px" fill="white" class="svg-inline-custom opacity-25 svg-darkmode" >}})
 </div>
