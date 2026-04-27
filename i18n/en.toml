@@ -166,6 +166,12 @@ other = "O3DE"
 [home-section-integrations-2-description]
 other = "Amplitude integrates seamlessly in your O3DE projects through the O3DE's Audio Translation Layer."
 
+[home-section-integrations-3-title]
+other = "Flax Engine"
+
+[home-section-integrations-3-description]
+other = "Amplitude has a Flax Engine plugin built on top a custom Flax Engine's audio system."
+
 [home-section-contact-title]
 other = "Support"
 
