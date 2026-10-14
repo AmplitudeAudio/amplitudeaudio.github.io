@@ -1,12 +1,30 @@
-.idea
-.eslintcache
-.stylelintcache
-.netlify
-.hugo_build.lock
-hugo_stats.json
-yarn-error.log
 node_modules
-public
-resources
-html/
-linklint_results/
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Paraglide
+src/lib/paraglide
+project.inlang/cache/
+
+# Editors
+.idea
