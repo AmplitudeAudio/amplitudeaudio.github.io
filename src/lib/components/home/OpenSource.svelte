@@ -50,7 +50,7 @@
 
 	.arcs {
 		position: absolute;
-		right: -170px;
+		right: -260px;
 		top: 50%;
 		margin-top: -260px;
 		opacity: 0.55;
