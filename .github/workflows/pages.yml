@@ -39,7 +39,9 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
 
-      # --bun runs Vite on the Bun runtime instead of the runner's Node.js.
+      - name: Build i18n package
+        run: bun --bun run build:i18n
+
       - name: Check
         run: bun --bun run check
 
