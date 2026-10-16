@@ -7,7 +7,7 @@ export const site = {
 
 export const links = {
 	docs: 'https://docs.amplitudeaudiosdk.com',
-	getStarted: 'https://docs.amplitudeaudiosdk.com/nightly/getting-started/introduction',
+	getStarted: 'https://docs.amplitudeaudiosdk.com/nightly/getting-started/installation',
 	github: 'https://github.com/AmplitudeAudio/sdk',
 	issues: 'https://github.com/AmplitudeAudio/sdk/issues',
 	contributing: 'https://github.com/AmplitudeAudio/sdk/blob/main/CONTRIBUTING.md',
