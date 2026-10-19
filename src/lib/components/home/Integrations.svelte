@@ -34,7 +34,7 @@
 				</div>
 				<h3>O3DE</h3>
 				<p>{m.int_o3de_desc()}</p>
-				<a class="link-arrow" href={links.docs}>{m.read_guide()}</a>
+				<a class="link-arrow" href={links.integrations.o3de}>{m.view_repo()}</a>
 			</li>
 			<li class="card integration">
 				<div class="top">
@@ -45,7 +45,29 @@
 				</div>
 				<h3>Flax Engine</h3>
 				<p>{m.int_flax_desc()}</p>
-				<a class="link-arrow" href={links.docs}>{m.read_guide()}</a>
+				<a class="link-arrow" href={links.integrations.flax}>{m.view_repo()}</a>
+			</li>
+			<li class="card integration">
+				<div class="top">
+					<span class="logo">
+						<img src={asset('images/godot_icon.svg')} alt="Godot" width="32" height="32" />
+					</span>
+					<span class="chip">{m.chip_coming_soon()}</span>
+				</div>
+				<h3>Godot</h3>
+				<p>{m.int_godot_desc()}</p>
+				<a class="link-arrow" href={links.integrations.godot}>{m.view_repo()}</a>
+			</li>
+			<li class="card integration">
+				<div class="top">
+					<span class="logo">
+						<img src={asset('images/ezengine_icon.svg')} alt="ezEngine" width="32" height="32" />
+					</span>
+					<span class="chip">{m.chip_coming_soon()}</span>
+				</div>
+				<h3>ezEngine</h3>
+				<p>{m.int_ezengine_desc()}</p>
+				<a class="link-arrow" href={links.integrations.ezengine}>{m.view_repo()}</a>
 			</li>
 		</ul>
 

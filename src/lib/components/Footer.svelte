@@ -9,7 +9,11 @@
 <footer>
 	<div class="container inner">
 		<div class="brand">
-			<img src={asset('images/logo_sdk.png')} alt="Amplitude Audio SDK" width="101" height="28" />
+			<img
+				src={asset('images/logo.svg')}
+				alt="Amplitude Audio"
+				class="h-auto w-48 object-contain"
+			/>
 			<span>{m.footer_license()}</span>
 			<span>{m.footer_copyright()}</span>
 		</div>
@@ -18,7 +22,8 @@
 				<li><a class="muted" href={links.docs}>{m.nav_docs()}</a></li>
 				<li><a class="muted" href={localHref('/blog/')}>{m.nav_blog()}</a></li>
 				<li><a class="muted" href={localHref('/privacy-policy/')}>{m.footer_privacy()}</a></li>
-				<li><a href={links.studio}>{m.footer_studio()}</a></li>
+				<li><a class="muted" href={links.studio}>Studio</a></li>
+				<li><a class="muted" href={links.cli}>CLI</a></li>
 			</ul>
 			<ul class="social" aria-label={m.footer_social()}>
 				<li>

@@ -13,7 +13,7 @@
 <header>
 	<nav class="container" aria-label={m.nav_main()}>
 		<a class="logo" href={home}>
-			<img src={asset('images/logo_sdk.png')} alt="Amplitude Audio SDK" width="123" height="34" />
+			<img src={asset('favicon-512x512.png')} alt="Amplitude Audio SDK" width="123" height="34" />
 		</a>
 		<button
 			class="menu-toggle"
@@ -29,6 +29,7 @@
 			<ul class="links">
 				<li><a href="{home}#features" onclick={() => (open = false)}>{m.nav_features()}</a></li>
 				<li><a href="{home}#engine" onclick={() => (open = false)}>{m.nav_engine()}</a></li>
+				<li><a href="{home}#authoring" onclick={() => (open = false)}>{m.nav_authoring()}</a></li>
 				<li>
 					<a href="{home}#integrations" onclick={() => (open = false)}>{m.nav_integrations()}</a>
 				</li>
@@ -52,6 +53,15 @@
 		background: rgba(10, 14, 18, 0.92);
 		backdrop-filter: blur(6px);
 		border-bottom: 1px solid var(--border-subtle);
+	}
+
+	header::before {
+		content: '';
+		position: absolute;
+		inset: 0 0 auto;
+		height: 2px;
+		background: linear-gradient(90deg, var(--brand), var(--accent));
+		pointer-events: none;
 	}
 
 	nav {
